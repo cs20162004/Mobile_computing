@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="110dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true">
+        </TextView>
+
+        <fragment
+            android:id="@+id/google_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            tools:layout="@layout/activity_main"
+            android:background="@drawable/rounded_corner"/>
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="120dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_corner">
+
+    </TextView>
+
+
+
+    <ListView
+        android:id="@+id/listveiw_id"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_corner">
+
+    </ListView>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Seoul Special City"
+        android:id="@+id/seoul_id"
+        android:background="@drawable/rounded_corner"
+        android:textSize="17dp"
+        android:gravity="bottom"
+        android:drawableTop="@drawable/ic_seoul">
+    </TextView>
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Incheon Metropolitan City"
+        android:id="@+id/incheon_id"
+        android:background="@drawable/rounded_corner"
+        android:textSize="16dp"
+        android:gravity="bottom"
+        android:drawableTop="@drawable/ic_incheon">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Daejeon Metropolitan City"
+        android:id="@+id/daejeon_id"
+        android:background="@drawable/rounded_corner"
+        android:textSize="19dp"
+        android:gravity="bottom"
+        android:drawableTop="@drawable/ic_daejeon">
+    </TextView>
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Busan Metropolitan City"
+        android:id="@+id/busan_id"
+        android:background="@drawable/rounded_corner"
+        android:textSize="21dp"
+        android:gravity="bottom"
+        android:drawableTop="@drawable/ic_busan">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Daegu Metropolitan City"
+        android:id="@+id/daegu_id"
+        android:background="@drawable/rounded_corner"
+        android:textSize="20dp"
+        android:gravity="bottom"
+        android:drawableTop="@drawable/ic_daegu">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Gwangju Metropolitan City"
+        android:id="@+id/gwangju_id"
+        android:background="@drawable/rounded_corner"
+        android:textSize="18dp"
+        android:gravity="bottom"
+        android:drawableTop="@drawable/ic_gwangju">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Jeju Special Self-Governing Province"
+        android:id="@+id/jeju_id"
+        android:background="@drawable/rounded_corner"
+        android:textSize="15dp"
+        android:gravity="bottom"
+        android:drawableTop="@drawable/ic_jeju">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Ulsan Metropolitan City"
+        android:id="@+id/ulsan_id"
+        android:background="@drawable/rounded_corner"
+        android:textSize="22dp"
+        android:gravity="bottom"
+        android:drawableTop="@drawable/ic_ulsan">
+
+    </TextView>
+
+
+
+</RelativeLayout>
